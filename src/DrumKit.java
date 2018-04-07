@@ -1,3 +1,4 @@
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 1
@@ -21,6 +22,7 @@ public class DrumKit extends MouseAdapter {
 
 	JLabel drumLabelWithImage;
 	JLabel drumLabelWithImagetwo;
+
 	public static void main(String[] args) throws Exception {
 		new DrumKit().getGoing();
 	}
@@ -70,14 +72,13 @@ public class DrumKit extends MouseAdapter {
 		// find it on freesound.org. To download it, log in as
 		// leagueofamazing/code4life.
 		// 16. If they clicked on the drumImage...
-		if (drumClicked==drumLabelWithImage) {
+		if (drumClicked == drumLabelWithImage) {
 			// 17. ...use the playSound method to play a drum sound.
 			playSound("drum.wav");
 		}
-		if(drumClicked==drumLabelWithImagetwo) {
+		if (drumClicked == drumLabelWithImagetwo) {
 			playSound("cymbal.wav");
 		}
-
 
 		// 18. Add more images to make a drumkit. Remember to add a mouse listener to
 		// each one.
